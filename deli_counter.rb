@@ -1,4 +1,5 @@
 # Write your code here.
+#The first method is called #line. This method takes the argument (current_position and)
 
 katz_deli = []
 
