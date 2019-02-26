@@ -1,5 +1,5 @@
 # Write your code here.
-#The first method is called #line. This method takes the argument (current_position) and says if the number if people/elements in the array are equal to 0, then puts "The line is currently empty". Otherwise, using the .each_with_index operator to iterate through all the elements an
+#The first method is called #line. This method takes the argument (current_position) and says if the number if people/elements in the array are equal to 0, then puts "The line is currently empty". Otherwise, the method will use the .each_with_index operator to iterate through all the elements to give me the name and index of people in current position. The variables (name and index) are stored between the pipes and using the shovel method, added
 
 katz_deli = []
 
