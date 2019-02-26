@@ -15,6 +15,12 @@ def line (current_position)
 end
 
 
+#The second method #take_a_number accepts 2 arguments, the katz_deli array and the name of the person in line.Using the ,push operator
+
+
+
+
+
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
