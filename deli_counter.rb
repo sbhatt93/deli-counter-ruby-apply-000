@@ -15,11 +15,7 @@ def line (current_position)
 end
 
 
-#The second method #take_a_number accepts 2 arguments, the katz_deli array and the name of the person in line.Using the ,push operator
-
-
-
-
+#The second method #take_a_number accepts 2 arguments, the katz_deli array and the name of the person in line.Using the ,push operator and interpolation and the .length operator to move the position of the person in the line(katz_deli) to the end of the string. When this method runs, the method will puts "Welcome, #{name} (The person in line). You are number #{katz_deli.length} (the person's position in the line) in line".
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
