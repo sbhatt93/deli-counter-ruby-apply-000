@@ -23,9 +23,7 @@ def take_a_number(katz_deli, name)
 end
 
 
-#the final method is called #now_serving, which takes a single argument (katz_deli). Here, it uses a simple if statement and .length operator to say if there are 0 people in the katz_deli array/argument, then it will puts out "There is nobody waiting to be served!". Else, if there is more than 0 people in line in the katz_deli argument/array, it will puts "Currently serving #{katz_deli.shift}"
-
-
+#the final method is called #now_serving, which takes a single argument (katz_deli). Here, it uses a simple if statement and .length operator to say if there are 0 people in the katz_deli array/argument, then it will puts out "There is nobody waiting to be served!". Else, if there is more than 0 people in line in the katz_deli argument/array, it will puts "Currently serving #{katz_deli.shift}" i.e. the first person in line and using the .shift operator it will remove that person from the line.
 
 
 def now_serving(katz_deli)
